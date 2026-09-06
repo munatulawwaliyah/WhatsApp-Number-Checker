@@ -1,15 +1,17 @@
+WhatsApp Number Checker
+
 Aplikasi ini adalah tool otomatisasi berbasis antarmuka grafis (GUI) yang dirancang untuk mengecek status nomor telepon secara massal apakah terdaftar di WhatsApp atau tidak. Program ini terintegrasi langsung dengan Google Sheets untuk membaca data target dan menuliskan hasil pengecekan (Aktif/Tidak Aktif) secara real-time.
 
 ✨ Fitur Utama
-Integrasi Google Sheets Otomatis: Membaca daftar nomor telepon dari Google Sheets dan langsung menuliskan status hasil pengecekan di kolom yang ditentukan tanpa perlu export/import file manual.
+- Integrasi Google Sheets Otomatis: Membaca daftar nomor telepon dari Google Sheets dan langsung menuliskan status hasil pengecekan di kolom yang ditentukan tanpa perlu export/import file manual.
 
-Pengecekan Real-time & Looping: Bot akan terus memantau Google Sheets. Jika ada data baru yang masuk, bot akan langsung mengeceknya.
+- Pengecekan Real-time & Looping: Bot akan terus memantau Google Sheets. Jika ada data baru yang masuk, bot akan langsung mengeceknya.
 
-Auto-Formatting Nomor: Mengubah dan membersihkan format nomor telepon secara otomatis (misalnya dari awalan 08... atau 8... menjadi format standar WhatsApp 628...).
+- Auto-Formatting Nomor: Mengubah dan membersihkan format nomor telepon secara otomatis (misalnya dari awalan 08... atau 8... menjadi format standar WhatsApp 628...).
 
-Antarmuka Pengguna (GUI) Sederhana: Dilengkapi dengan dashboard untuk mengatur nama kolom, memulai/menghentikan bot, dan melihat log proses pengecekan secara langsung.
+- Antarmuka Pengguna (GUI) Sederhana: Dilengkapi dengan dashboard untuk mengatur nama kolom, memulai/menghentikan bot, dan melihat log proses pengecekan secara langsung.
 
-Aman dari Banned: Menggunakan metode otomasi peramban (Chromium via Playwright) yang mensimulasikan penggunaan WhatsApp Web secara natural.
+- Aman dari Banned: Menggunakan metode otomasi peramban (Chromium via Playwright) yang mensimulasikan penggunaan WhatsApp Web secara natural.
 
 🛠️ Persiapan Sebelum Menggunakan
 Karena bot ini membaca dan menulis data langsung ke Google Sheets Anda, ada satu langkah wajib yang harus dilakukan:
