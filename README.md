@@ -16,28 +16,28 @@ Aplikasi ini adalah tool otomatisasi berbasis antarmuka grafis (GUI) yang diranc
 🛠️ Persiapan Sebelum Menggunakan
 Karena bot ini membaca dan menulis data langsung ke Google Sheets Anda, ada satu langkah wajib yang harus dilakukan:
 
-Buat atau siapkan Google Sheets yang berisi daftar nomor kontak.
+- Buat atau siapkan Google Sheets yang berisi daftar nomor kontak.
 
-Klik tombol Share (Bagikan) di pojok kanan atas Google Sheets Anda.
+- Klik tombol Share (Bagikan) di pojok kanan atas Google Sheets Anda.
 
-Masukkan email bot berikut: bot-pembaca-data@sylvan-overview-500904-f1.iam.gserviceaccount.com
+- Masukkan email bot berikut: bot-pembaca-data@sylvan-overview-500904-f1.iam.gserviceaccount.com
 
-Pastikan akses email bot tersebut diatur sebagai Editor, lalu klik Send/Selesai.
+- Pastikan akses email bot tersebut diatur sebagai Editor, lalu klik Send/Selesai.
 
 🚀 Cara Penggunaan
 Unduh dan jalankan file nama_file.exe.
 
 Pada jendela aplikasi yang terbuka, isi detail Google Sheets Anda:
 
-Nama Spreadsheet: Judul file Google Sheets Anda.
+- Nama Spreadsheet: Judul file Google Sheets Anda.
 
-Nama Worksheet: Nama tab di bagian bawah sheet (biasanya Sheet1).
+- Nama Worksheet: Nama tab di bagian bawah sheet (biasanya Sheet1).
 
-Nama Kolom No HP: Nama header atau judul kolom yang berisi nomor telepon.
+- Nama Kolom No HP: Nama header atau judul kolom yang berisi nomor telepon.
 
-Nama Kolom Nama: Nama header untuk kolom nama target.
+- Nama Kolom Nama: Nama header untuk kolom nama target.
 
-Nama Kolom Hasil: Nama header bebas (misal: Status WA) tempat bot akan menuliskan hasilnya. Jika kolom belum ada, bot akan membuatnya otomatis.
+- Nama Kolom Hasil: Nama header bebas (misal: Status WA) tempat bot akan menuliskan hasilnya. Jika kolom belum ada, bot akan membuatnya otomatis.
 
 Klik tombol ▶ MULAI BOT.
 
@@ -46,6 +46,6 @@ Jendela peramban Chromium akan terbuka menampilkan WhatsApp Web. Silakan Scan QR
 Setelah berhasil login, biarkan bot bekerja. Bot akan mengecek satu per satu dan memperbarui Google Sheets Anda secara otomatis.
 
 ⚠️ Catatan Penting
-Selama proses berjalan, jangan menutup jendela browser Chromium secara manual, gunakan tombol ⏹ BERHENTI di aplikasi untuk menyetop proses dengan aman.
+- Selama proses berjalan, jangan menutup jendela browser Chromium secara manual, gunakan tombol ⏹ BERHENTI di aplikasi untuk menyetop proses dengan aman.
 
-Karena aplikasi ini merupakan hasil compile menjadi .exe, Windows Defender atau antivirus mungkin mendeteksinya sebagai Unrecognized app. Klik More info -> Run anyway untuk tetap menjalankannya.
+- Karena aplikasi ini merupakan hasil compile menjadi .exe, Windows Defender atau antivirus mungkin mendeteksinya sebagai Unrecognized app. Klik More info -> Run anyway untuk tetap menjalankannya.
